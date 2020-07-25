@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "slacksay"
+version = "2.0.0"
+description = ""
+authors = ["yttkans <yttkans@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+pyyaml = "^5.3.1"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+slacksay = "slacksay.main:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
